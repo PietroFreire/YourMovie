@@ -1,0 +1,76 @@
+/* VARIÁVEIS */
+:root{
+    --backgroundColorCardBox: #1D1F20;
+    --backgroundColorCardBoxTitle: #1A1C1D;
+    --backgroundColorInput: #373b3d;
+    --backgroundColorButton: #15a9c4;
+}
+
+/* Body */
+.container-body{
+    width: 100%;
+    
+}
+
+.container-generos{
+    background-color: var(--backgroundColorCardBox);
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 1000px;
+    min-height: 500px;
+    max-width: 80%;
+    padding-bottom: 5px;
+}
+
+#title {
+    position: relative;
+    background-color: var(--backgroundColorCardBoxTitle);
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 0.35em;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    margin-bottom: 20px;
+}
+
+#cards{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 25px;
+}
+
+.card-box{
+    background-color: rgb(255, 255, 255);
+    margin: 5px 0px 0px 10px;
+    width: 180px;
+    height: 300px;
+    border-radius: 15px;
+}
+.card-box:hover{
+    border: 2px solid var(--backgroundColorButton);
+}
+
+.card-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.card-title{
+    position: relative;
+    float: left;
+    margin: -32px 0 0 10px;
+    right: 10px;
+    background-color: #171a1fd9;
+    color: var(--backgroundColorButton);
+    padding-left: 20px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+}
+
+footer{
+    position: relative;
+}

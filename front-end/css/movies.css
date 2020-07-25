@@ -1,0 +1,98 @@
+/* VARIÁVEIS */
+:root{
+    --backgroundColorCardBox: #1D1F20;
+    --backgroundColorCardBoxTitle: #1A1C1D;
+    --backgroundColorInput: #373b3d;
+    --backgroundColorButton: #15a9c4;
+}
+
+/* Body */
+.container-body{
+    width: 100%;
+    
+}
+
+.container-movies{
+    background-color: var(--backgroundColorCardBox);
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 700px;
+    min-height: 500px;
+    max-width: 80%;
+    padding-bottom: 5px;
+}
+
+#title {
+    position: relative;
+    background-color: var(--backgroundColorCardBoxTitle);
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 0.35em;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    margin-bottom: 20px;
+}
+
+#cards{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 25px;
+}
+
+.card-box{
+    margin: 5px 0px 0px 10px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.card-box img{
+    max-width: 180px;
+    width: 100%;
+    max-height: 300px;
+    height: 100%;
+    border-radius: 15px;
+    float: left;
+}
+
+.card{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.card h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.card-info p{
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.card-description p{
+    margin-top: 15px;
+}
+
+.button-trailer {
+    padding: 6px 25px;
+    background: var(--backgroundColorButton);
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+
+.detail-final-card{
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer{
+    position: relative;
+}
